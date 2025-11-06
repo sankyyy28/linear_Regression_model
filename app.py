@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load model
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("model_lr.pkl", "rb"))
 
 # Feature list (same order as training)
 feature_names = ['Pop', 'head_l', 'skull_w', 'totlngth', 'footlgth', 'eye', 'chest', 'belly']
