@@ -29,21 +29,19 @@ col1, col2 = st.columns(2)
 
 with col1:
     Pop = st.selectbox("Population (Pop)", ["Vic", "other"])
-    head_l = st.number_input("Head Length")
-    skull_w = st.number_input("Skull Width")
-    totlngth = st.number_input("Total Length")
-
+    hdlngth = st.number_input("Head Length")
+    skullw = st.number_input("Skull Width")
+    
 with col2:
+    totlngth = st.number_input("Total Length")
+    taill = st.number_input("Taill Length")
     footlgth = st.number_input("Foot Length")
-    eye = st.number_input("Eye Size")
-    chest = st.number_input("Chest Size")
-    belly = st.number_input("Belly Size")
-
+    
 # Encoding Pop
 Pop = 1 if Pop == "Vic" else 0
 
 # Create input DataFrame in the **correct column order**
-input_data = pd.DataFrame([[Pop, head_l, skull_w, totlngth, footlgth, eye, chest, belly]], 
+input_data = pd.DataFrame([[Pop, hdlngth, skullw, totlngth, taill, footlgth]], 
                           columns=feature_names)
 
 # Prediction Button
