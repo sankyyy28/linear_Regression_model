@@ -7,8 +7,7 @@ model = pickle.load(open("model_lr.pkl", "rb"))
 scaler = pickle.load(open("scaler_lr.pkl", "rb"))
 
 # Feature list in the **same order used during training**
-feature_names = ['Pop', 'head_l', 'skull_w', 'totlngth', 'footlgth', 'eye', 'chest', 'belly']
-
+feature_names = ['Pop', 'hdlngth', 'skullw', 'totlngth', 'taill', 'footlgth']
 st.set_page_config(page_title="Possum Sex Predictor", page_icon="🦝", layout="wide")
 
 st.markdown("<h1 style='text-align:center;'>🦝 Possum Sex Prediction Model</h1>", unsafe_allow_html=True)
