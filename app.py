@@ -3,8 +3,8 @@ import pandas as pd
 import pickle
 
 # Load Model and Scaler
-model = pickle.load(open("model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+model = pickle.load(open("model_lr.pkl", "rb"))
+scaler = pickle.load(open("scaler_lr.pkl", "rb"))
 
 # Feature list in the **same order used during training**
 feature_names = ['Pop', 'head_l', 'skull_w', 'totlngth', 'footlgth', 'eye', 'chest', 'belly']
