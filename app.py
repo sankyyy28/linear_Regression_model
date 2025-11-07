@@ -25,10 +25,10 @@ st.write("Predict whether a possum is **Male or Female** based on biological mea
 
 # Sidebar Developer Info
 st.sidebar.header("👤 Developer Info")
-st.sidebar.markdown("**Name:** Sam Ingole")
-st.sidebar.markdown("[🔗 LinkedIn](https://linkedin.com/in/sam-ingole)")
-st.sidebar.markdown("[💻 GitHub](https://github.com/samingole)")
-st.sidebar.markdown("📧 Email: sam.ingole@example.com")
+st.sidebar.markdown("**Name:** Sanket Sanjay Sonparate")
+st.sidebar.markdown("[🔗 LinkedIn](https://www.linkedin.com/in/sanket-sonparate-018350260)")
+st.sidebar.markdown("[💻 GitHub](https://github.com/sankyyy28)")
+st.sidebar.markdown("📧 Email:sonparatesanket@gmail.com")
 st.sidebar.write("---")
 
 # Display model info
