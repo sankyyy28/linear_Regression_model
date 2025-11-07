@@ -126,10 +126,10 @@ numpy>=1.21.0
 
 ##  Developer Information
 
-**Developer**: Sam Ingole  
-**Email**: sam.ingole@example.com  
-**LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/sam-ingole)  
-**GitHub**: [Your GitHub Profile](https://github.com/samingole)  
+**Developer**: Sanket Sanjay Sonparate 
+**Email**: sonparatesanket@gmail.com  
+**LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/sanket-sonparate-018350260)  
+**GitHub**: [Your GitHub Profile](https://github.com/sankyyy28)  
 
 ##  Troubleshooting
 
